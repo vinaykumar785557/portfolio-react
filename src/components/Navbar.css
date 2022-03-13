@@ -14,8 +14,6 @@
 }
 .navbar__rightside {
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-end;
 }
 .navbar__rightside .navlist {
 	width: 100%;
@@ -80,7 +78,6 @@ a:active {
 
 	li {
 		width: 100%;
-
 		padding: 1rem;
 	}
 }
