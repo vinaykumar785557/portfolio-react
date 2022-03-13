@@ -11,12 +11,13 @@
 }
 .navbar__leftside img {
 	width: 50px;
+	align-self: baseline;
 }
 .navbar__rightside {
 	display: flex;
 }
 .navbar__rightside .navlist {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -32,6 +33,7 @@
 	display: flex;
 	list-style: none;
 	text-decoration: none;
+	font-size: 20px;
 }
 .navitems a {
 	color: #cdcdff;
