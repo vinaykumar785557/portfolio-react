@@ -19,13 +19,21 @@ function Home() {
 				<p>{description.thirdparagraph}</p>
 			</div>
 			<div className={classes.buttons}>
-				<Link to='../Resume.docx' target='_blank' download className={classes.link}>
+				<Link
+					to='../Resume.docx'
+					target='_blank'
+					download
+					className={classes.link}>
 					Resume
 				</Link>
-				<button onClick={() => window.open(social.github)} className={classes.btn} >
+				<button
+					onClick={() => window.open(social.github)}
+					className={classes.btn}>
 					<GitHub />
 				</button>
-				<button onClick={() => window.open(social.linkedin)}className={classes.btn}>
+				<button
+					onClick={() => window.open(social.linkedin)}
+					className={classes.btn}>
 					<LinkedIn />
 				</button>
 			</div>
