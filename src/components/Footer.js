@@ -5,7 +5,7 @@ function Footer() {
 
 	return (
 		<footer>
-			<h3> Handcrafted by me &copy;{year} </h3>
+			<h3>&copy;{year} Vinay Kumar </h3>
 		</footer>
 	);
 }

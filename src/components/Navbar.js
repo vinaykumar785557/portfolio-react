@@ -29,7 +29,7 @@ function Navbar() {
 		<div className='navbar'>
 			<div className='navbar__leftside'>
 				<Link to='/'>
-					<img src={logo} alt='image-avatar'></img>
+					<img src={logo} alt='avatar'></img>
 				</Link>
 			</div>
 
