@@ -14,4 +14,43 @@ const about = {
 	},
 };
 
-export { about };
+const projects = [
+	{
+		name: 'Tesla Clone React',
+		description: 'Tesla Homepage is cloned with React JS',
+		stack: ['React', 'Redux', 'Styled Components'],
+		sourceCode: 'https://github.com',
+	},
+	{
+		name: 'Expense Tracker React',
+		description: 'Expense Tracker with React',
+		stack: ['React Hooks', 'Context API', 'CSS'],
+		sourceCode: 'https://github.com',
+	},
+	{
+		name: 'Weather App React',
+		description: 'Simple weather application',
+		stack: ['React', 'Openweather API', 'CSS modules'],
+		sourceCode: 'https://github.com',
+	},
+	{
+		name: 'Recipe Finder',
+		description: 'Recipe search application ',
+		stack: ['React Hooks', 'Edamam API', 'CSS'],
+		sourceCode: 'https://github.com',
+	},
+];
+
+const skills = [
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'React JS',
+	'Material UI',
+	'Git',
+	'GitHub',
+	'Firebase',
+	'npm',
+];
+
+export { about, projects, skills };
