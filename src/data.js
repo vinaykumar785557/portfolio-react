@@ -10,7 +10,7 @@ const about = {
 	},
 	social: {
 		linkedin: 'https://www.linkedin.com/in/c0785557/',
-		github: 'https://github.com/c0785557',
+		github: 'https://github.com/vinaykumar785557',
 	},
 };
 
@@ -19,25 +19,43 @@ const projects = [
 		name: 'Tesla Clone React',
 		description: 'Tesla Homepage is cloned with React JS',
 		stack: ['React', 'Redux', 'Styled Components'],
-		sourceCode: 'https://github.com',
+		sourceCode: 'https://github.com/vinaykumar785557/tesla-clone',
 	},
 	{
 		name: 'Expense Tracker React',
 		description: 'Expense Tracker with React',
 		stack: ['React Hooks', 'Context API', 'CSS'],
-		sourceCode: 'https://github.com',
+		sourceCode: 'https://github.com/vinaykumar785557/React-Expense-Tracker',
 	},
 	{
 		name: 'Weather App React',
 		description: 'Simple weather application',
 		stack: ['React', 'Openweather API', 'CSS modules'],
-		sourceCode: 'https://github.com',
+		sourceCode: 'https://github.com/vinaykumar785557/weather-app-react',
 	},
 	{
 		name: 'Recipe Finder',
 		description: 'Recipe search application ',
 		stack: ['React Hooks', 'Edamam API', 'CSS'],
-		sourceCode: 'https://github.com',
+		sourceCode: 'https://github.com/vinaykumar785557/recipe-search-react',
+	},
+	{
+		name: 'Tic Tac Toe ',
+		description: 'Simple tic tac toe game using react ',
+		stack: ['React Hooks', 'CSS', 'JavaScript'],
+		sourceCode: 'https://github.com/vinaykumar785557/react-tic-tac-toe',
+	},
+	{
+		name: 'CRUD React ',
+		description: 'crud operations using hooks and reactstrap ',
+		stack: ['React Hooks', 'Reactstrap', 'JavaScript'],
+		sourceCode: 'https://github.com/vinaykumar785557/React-CRUD-Operations',
+	},
+	{
+		name: 'BookmyTrip ',
+		description: 'Android Application for term project ',
+		stack: ['Android Studio', 'Google Maps Api', 'Java'],
+		sourceCode: 'https://github.com/vinaykumar785557/BookMyTrip',
 	},
 ];
 

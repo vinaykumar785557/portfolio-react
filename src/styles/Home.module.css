@@ -1,6 +1,7 @@
 .home_wrapper {
 	color: #cdcdff;
-	height: auto;
+	height: inherit;
+	
 	/* background-color: rgb(79, 78, 122); */
 	padding: 8px;
 	display: flex;
