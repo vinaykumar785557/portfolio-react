@@ -1,12 +1,15 @@
 .project {
 	max-width: 25%;
+	height: 25%;
 	border: 1px solid rgb(137, 146, 196);
 	padding: 2rem;
 	margin-top: 2rem;
+	margin-right: 1rem;
 	text-align: center;
 	transition: transform 0.2s linear;
 	box-shadow: 0 0 20px rgb(158, 147, 223);
 	color: #cdcdff;
+	
 }
 
 .project:hover {

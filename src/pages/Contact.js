@@ -1,14 +1,18 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 
 import '../styles/Contact.css';
 function Contact() {
+   
+	const [message,setMessage] = useState("")
+
+
 	const firstNameInputRef = useRef('');
 	const LastNameInputRef = useRef('');
 	const EmailInputRef = useRef('');
 	const SubjectInputRef = useRef('');
 	const DescriptionInputRef = useRef('');
 
-	const submitHandler = (e) => {
+	const submitHandler = async (e) => {
 		e.preventDefault();
 		// send to backend(firebase)
 
@@ -26,12 +30,48 @@ function Contact() {
 			Description,
 		};
 
-		console.log(data);
-		firstNameInputRef.current.value = '';
+		// console.log(data);
+		// firstNameInputRef.current.value = '';
+		// LastNameInputRef.current.value = '';
+		// EmailInputRef.current.value = '';
+		// SubjectInputRef.current.value = '';
+		// DescriptionInputRef.current.value = '';
+          
+		try{
+		let res = await fetch("https://portfolio-contact-6735c-default-rtdb.firebaseio.com/contact.json",{
+			method:'POST',
+			body:JSON.stringify(data)
+		})
+
+
+		// let resJson = await res.json();
+
+		if(res.status === 200){
+			firstNameInputRef.current.value = '';
 		LastNameInputRef.current.value = '';
 		EmailInputRef.current.value = '';
 		SubjectInputRef.current.value = '';
 		DescriptionInputRef.current.value = '';
+		setMessage("submitted successfully")
+		} else{
+			setMessage("error in submission")
+		} 
+		
+	}catch (err){
+			console.log(err)
+		}
+
+
+
+
+
+
+
+
+
+
+
+
 	};
 
 	return (
@@ -82,6 +122,8 @@ function Contact() {
 							</button>
 						</p>
 					</form>
+
+				<div className="message">{message ? <p>{message}</p> : null}</div>
 				</div>
 			</div>
 		</div>
