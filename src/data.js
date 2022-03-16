@@ -29,7 +29,7 @@ const projects = [
 	},
 	{
 		name: 'Weather App React',
-		description: 'Simple weather application',
+		description: 'Developed weather application',
 		stack: ['React', 'Openweather API', 'CSS modules'],
 		sourceCode: 'https://github.com/vinaykumar785557/weather-app-react',
 	},
@@ -41,7 +41,7 @@ const projects = [
 	},
 	{
 		name: 'Tic Tac Toe ',
-		description: 'Simple tic tac toe game using react ',
+		description: 'created tic tac toe game using react ',
 		stack: ['React Hooks', 'CSS', 'JavaScript'],
 		sourceCode: 'https://github.com/vinaykumar785557/react-tic-tac-toe',
 	},
@@ -62,13 +62,15 @@ const projects = [
 const skills = [
 	'HTML',
 	'CSS',
+	'scss/saas',
 	'JavaScript',
 	'React JS',
+	'Redux',
 	'Material UI',
 	'Git',
 	'GitHub',
 	'Firebase',
-	'npm',
+	'npm/yarn',
 ];
 
 export { about, projects, skills };

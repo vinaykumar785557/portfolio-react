@@ -1,15 +1,13 @@
 html{
 	box-sizing: border-box;
-	height: 100%;
-	overflow: auto;
+	/* height: 100vh; */
+	/* overflow: auto; */
 }
-body{
-	min-height: 100%;
-}
+
 .App {
 	text-align: center;
 	color: whitesmoke;
-
+    min-height: 100%;
 }
 
 
@@ -21,7 +19,7 @@ footer h3 {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	margin-top: 80px;
+	margin-top: 25rem;
 	padding-bottom: 0.5rem;
 	
 	

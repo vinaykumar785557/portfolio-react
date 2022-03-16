@@ -32,7 +32,11 @@ const style = {
 
 function Skills() {
 	return (
+		<>
+		
+		<h2>Skills</h2>
 		<div className={classes.skills_wrapper}>
+			
 			<Timeline position='alternate' style={style}>
 				{skills.map((skill) => {
 					return (
@@ -51,6 +55,7 @@ function Skills() {
 				})}
 			</Timeline>
 		</div>
+		</>
 	);
 }
 

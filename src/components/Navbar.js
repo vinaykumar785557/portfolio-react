@@ -8,7 +8,7 @@ function Navbar() {
 	const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 	const [toggleMenu, setToggleMenu] = useState(false);
 
-	console.log(screenWidth);
+	console.log(`current screen width:${screenWidth}`);
 	const toggleNav = () => {
 		setToggleMenu(!toggleMenu);
 	};
