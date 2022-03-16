@@ -3,7 +3,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	
+	margin-top: 1.3rem;
 	
 }
 
@@ -14,4 +14,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+}
+.container{
+	margin: 1rem;
 }
