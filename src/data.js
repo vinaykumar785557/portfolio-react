@@ -16,6 +16,12 @@ const about = {
 
 const projects = [
 	{
+		name: 'Hulu Clone React',
+		description: 'Hulu Streaming App with TMDB Api',
+		stack: ['React Hooks', 'Material UI', 'Axios'],
+		sourceCode: 'https://github.com/vinaykumar785557/hulu-clone-react',
+	},
+	{
 		name: 'Tesla Clone React',
 		description: 'Tesla Homepage is cloned with React JS',
 		stack: ['React', 'Redux', 'Styled Components'],
