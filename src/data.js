@@ -16,8 +16,14 @@ const about = {
 
 const projects = [
 	{
+		name: 'Netflix Clone React',
+		description: 'Netflix Streaming App with TMDB API',
+		stack: ['React Hooks', 'Axios', 'BEM CSS'],
+		sourceCode: 'https://github.com/vinaykumar785557/netflix-clone-react',
+	},
+	{
 		name: 'Hulu Clone React',
-		description: 'Hulu Streaming App with TMDB Api',
+		description: 'Hulu Streaming App with TMDB API',
 		stack: ['React Hooks', 'Material UI', 'Axios'],
 		sourceCode: 'https://github.com/vinaykumar785557/hulu-clone-react',
 	},
