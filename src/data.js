@@ -16,6 +16,19 @@ const about = {
 
 const projects = [
 	{
+		name: 'Youtube Clone React',
+		description: 'Youtube is cloned using react Js',
+		stack: ['React Hooks', 'React Router', 'Material UI'],
+		sourceCode: 'https://github.com/vinaykumar785557/youtube-clone',
+	},
+	{
+		name: 'Foodnetwork Canada Clone React',
+		description: 'Foodnetwork canada landing page is cloned using React Js',
+		stack: ['React Hooks', 'React Modal Library', 'React Icon Library'],
+		sourceCode: 'https://github.com/vinaykumar785557/foodnetwork-clone-react',
+	},
+
+	{
 		name: 'Netflix Clone React',
 		description: 'Netflix Streaming App with TMDB API',
 		stack: ['React Hooks', 'Axios', 'BEM CSS'],
