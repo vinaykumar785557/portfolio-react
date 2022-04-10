@@ -22,6 +22,12 @@ const projects = [
 		sourceCode: 'https://github.com/vinaykumar785557/youtube-clone',
 	},
 	{
+		name: 'Presto Card Clone React',
+		description: 'presto card canada  is cloned using React Js',
+		stack: ['React Hooks', 'React Modal Library', 'React Icon Library'],
+		sourceCode: 'https://github.com/vinaykumar785557/presto-clone-react',
+	},
+	{
 		name: 'Foodnetwork Canada Clone React',
 		description: 'Foodnetwork canada landing page is cloned using React Js',
 		stack: ['React Hooks', 'React Modal Library', 'React Icon Library'],
