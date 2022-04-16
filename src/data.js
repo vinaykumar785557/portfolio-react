@@ -16,6 +16,12 @@ const about = {
 
 const projects = [
 	{
+		name: 'LinkedIn Clone React',
+		description: 'LinkedIn was cloned using React Js',
+		stack: ['React Redux', 'React Hooks', 'Material UI'],
+		sourceCode: 'https://github.com/vinaykumar785557/linkedin-clone-react',
+	},
+	{
 		name: 'Youtube Clone React',
 		description: 'Youtube is cloned using react Js',
 		stack: ['React Hooks', 'React Router', 'Material UI'],
