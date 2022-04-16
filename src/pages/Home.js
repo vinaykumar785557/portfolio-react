@@ -20,7 +20,7 @@ function Home() {
 			</div>
 			<div className={classes.buttons}>
 				<Link
-					to='../Resume.docx'
+					to='../VinayKumar__Resume.pdf'
 					target='_blank'
 					download
 					className={classes.link}>
