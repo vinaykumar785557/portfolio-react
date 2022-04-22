@@ -59,6 +59,12 @@ const projects = [
 		sourceCode: 'https://github.com/vinaykumar785557/hulu-clone-react',
 	},
 	{
+		name: 'Airbnb Clone React',
+		description: 'Airbnb cloned using React JS',
+		stack: ['React Hooks', 'React Router', 'Material UI'],
+		sourceCode: 'https://github.com/vinaykumar785557/airbnb-clone-react',
+	},
+	{
 		name: 'Tesla Clone React',
 		description: 'Tesla Homepage is cloned with React JS',
 		stack: ['React', 'Redux', 'Styled Components'],
@@ -109,7 +115,10 @@ const skills = [
 	'JavaScript',
 	'React JS',
 	'Redux',
+	'React Router',
 	'Material UI',
+	'Node Js',
+	'MongoDB',
 	'Git',
 	'GitHub',
 	'Firebase',
