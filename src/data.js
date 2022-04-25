@@ -16,6 +16,12 @@ const about = {
 
 const projects = [
 	{
+		name: 'Timhortons Clone React',
+		description: 'Timhortons Canada cloned in React Js',
+		stack: ['React Hooks', 'React Router', 'Material UI'],
+		sourceCode: 'https://github.com/vinaykumar785557/timhortons-clone-react',
+	},
+	{
 		name: 'LinkedIn Clone React',
 		description: 'LinkedIn was cloned using React Js',
 		stack: ['React Redux', 'React Hooks', 'Material UI'],
