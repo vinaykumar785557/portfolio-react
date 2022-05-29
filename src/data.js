@@ -122,6 +122,7 @@ const skills = [
 	'React JS',
 	'Redux',
 	'React Router',
+	'Next JS',
 	'Material UI',
 	'Node Js',
 	'MongoDB',
