@@ -19,7 +19,7 @@ const projects = [
 		name: 'Next JS Facebook Clone',
 		description: 'Facebook Cloned in Next JS and React Hooks',
 		stack: ['Next JS', 'Next Auth', 'Tailwind CSS'],
-		sourceCode: 'https://github.com/vinaykumar785557/timhortons-clone-react',
+		sourceCode: 'https://github.com/vinaykumar785557/facebook-clone-nextjs',
 	},
 	{
 		name: 'Timhortons Clone React',
