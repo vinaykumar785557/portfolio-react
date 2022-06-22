@@ -77,6 +77,12 @@ const projects = [
 		sourceCode: 'https://github.com/vinaykumar785557/airbnb-clone-react',
 	},
 	{
+		name: 'Booking.com Clone React',
+		description: 'Booking.com cloned in React Js',
+		stack: ['React Hooks', 'React Router', 'Date Picker NPM'],
+		sourceCode: 'https://github.com/vinaykumar785557/booking-clone-react',
+	},
+	{
 		name: 'Tesla Clone React',
 		description: 'Tesla Homepage is cloned with React JS',
 		stack: ['React', 'Redux', 'Styled Components'],
