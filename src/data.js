@@ -129,7 +129,6 @@ const projects = [
 const skills = [
 	'HTML',
 	'CSS',
-	'scss/saas',
 	'JavaScript',
 	'React JS',
 	'Redux',
@@ -137,11 +136,13 @@ const skills = [
 	'Next JS',
 	'Material UI',
 	'Node Js',
+	'Express Js',
 	'MongoDB',
 	'Git',
 	'GitHub',
 	'Firebase',
 	'npm/yarn',
+	'scss/saas',
 ];
 
 export { about, projects, skills };
