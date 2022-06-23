@@ -22,6 +22,12 @@ const projects = [
 		sourceCode: 'https://github.com/vinaykumar785557/facebook-clone-nextjs',
 	},
 	{
+		name: 'React Admin Dashboard',
+		description: 'TAdmin Panel using React Js',
+		stack: ['React Hooks', 'React Router', 'SCSS'],
+		sourceCode: 'https://github.com/vinaykumar785557/react-admin-dashboard',
+	},
+	{
 		name: 'Timhortons Clone React',
 		description: 'Timhortons Canada cloned in React Js',
 		stack: ['React Hooks', 'React Router', 'Material UI'],
